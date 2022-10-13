@@ -5,11 +5,16 @@
 	font-size: 20px;
 	box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-image: url("../images/background.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-family: roboto;
 }
 /* Header Area */ 
 .navbar {
@@ -24,17 +29,7 @@
 .navbar-default .navbar-brand{
 	color: #fff;
 }
-body {
-  background-image: url("../images/background.png");
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  z-index: 1;
-  color: white;
-  font-family: roboto;
-}
+
 body::after {
   position: absolute;
   content: "";
