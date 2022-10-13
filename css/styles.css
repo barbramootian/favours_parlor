@@ -167,7 +167,7 @@ button a{
 
 /* keyframes */
 @keyframes text_reveal_box {
-  50%{
+  75%{
     width: 100%;
     left: 0;
   }
@@ -248,6 +248,91 @@ button a{
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+
+  /*--About us */
+.aboutus-cards
+{
+  background-image: url("../images/room.png");
+  background-size:cover;
+  margin:40px 0px 0px 0px;
+  width:100vw;
+  height:40vh;
+  z-index:-1000;
+}
+
+.aboutus-content
+{
+  background-color: rgba(0,0,0,0.8);
+  padding: 2rem;
+  font-size:2rem;
+  z-index:-1000;
+  
+}
+.years
+{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.founded
+{
+  padding:15px;
+  margin:15px;
+  text-align:center;
+  font-size:25px;
+}
+.valuestext
+{
+  text-align:center;
+  padding: 0 1% 1% 1%;
+  font-size:25px;
+}
+.values
+{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+  
+}
+.values div 
+{
+  background-image: linear-gradient(to bottom right, lightgrey, grey);
+  border-radius:3px;
+  box-shadow: 5px 10px 8px #888888;
+ 
+  
+}
+.valueimg
+{
+  height:100px;
+  width:100%;
+  object-fit: cover;
+  display:block;
+}
+.valuetitle
+{
+  padding:5px;
+  margin:10px;
+  font-size:30px;
+  text-align:center;
+}
+.valuedes
+{
+  font-size:20px;
+  padding:auto;
+  margin:10px;;
+  text-align:center;
+}
+.valuecard
+{
+  width:420px;
+  height:370px;
+  margin:20px;
+  overflow:hidden;
+}
+ /*--services */
+ 
 
   .footer {
 	position: fixed;
