@@ -159,6 +159,7 @@ main
   margin:20px;
   overflow:hidden;
 }
+
 .footer {
 	position: fixed;
 	left: 0;
@@ -271,10 +272,3 @@ main
   background: #fefefe;
   border-color: #125688;
 }
-
-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
- 
-  
